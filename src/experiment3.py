@@ -9,6 +9,9 @@ data = pd.read_csv(file_path, sep="\t", header=0)
 # Filter only tasks with gold labels
 gold_data = data[data['gold'] != -1]
 
+# Set a random seed for reproducibility
+np.random.seed(42)
+
 # Step 1: Compute Worker Accuracy on Gold-Labeled Tasks
 def compute_worker_accuracy(gold_data):
     worker_accuracy = {}
