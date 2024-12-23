@@ -6,6 +6,9 @@ import numpy as np
 file_path = "trec-rf10-data.txt"
 data = pd.read_csv(file_path, sep="\t", header=0)
 
+# Set a random seed for reproducibility
+np.random.seed(42)
+
 # Filter tasks with gold labels
 gold_data = data[data['gold'] != -1]
 
