@@ -48,5 +48,4 @@ trec-rf10-crowd/
 │   ├── data_exploration.ipynb      # Jupyter notebook for exploring the dataset
 │   ├── experiment_workflow.ipynb   # Interactive notebook for reproducing all experiments
 ├── README.md                       # Project documentation
-├── requirements.txt                # Python dependencies
-└── LICENSE                         # License (e.g., MIT)
+└── requirements.txt                # Python dependencies
