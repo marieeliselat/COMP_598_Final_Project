@@ -1,6 +1,3 @@
-# COMP_598_Final_Project
-COMP 598 (Natural Computation) - Final Project (Aggregation of Crowdsourced Labels) 
-
 # TREC RF 2010 Crowdsourced Label Aggregation
 
 This repository contains the code, data, and results for the aggregation of crowdsourced relevance judgments from the **TREC 2010 Relevance Feedback Track** dataset. The goal of this project is to evaluate different methods for combining noisy labels from Mechanical Turk workers into high-quality consensus labels. These methods range from simple statistical approaches, such as majority voting, to advanced machine learning techniques like XGBoost.
